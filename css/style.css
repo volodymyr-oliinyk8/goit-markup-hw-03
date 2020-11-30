@@ -63,15 +63,18 @@ a {
 }
 .site-nav {
   display: flex;
-  margin-left: 94px;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  margin-left: 93px;
+  /* margin-top: 32px;
+  margin-bottom: 32px; */
 }
 .site-nav .nav-item:not(:last-child) {
   margin-right: 50px;
 }
 
 .nav-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--primary-title-color);
   font-family: Roboto;
   font-weight: 500;
@@ -290,6 +293,9 @@ address {
 .button-filter:focus {
   background-color: var(--primary-accent-color);
   color: var(--primary-white-color);
+}
+.container-button > li:not(:last-child) {
+  margin-right: 8px;
 }
 
 .work-set {
